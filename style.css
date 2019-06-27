@@ -6,12 +6,12 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 200vh;
   background: linear-gradient(171deg, #742dd0 0%, #742dd0 8%, #7449d8 8%, #7449d8 31%, #736fdf 31%, #736fdf 36%, #fff 36%, #fff 77%, #f5f9fc 77%, #f5f9fc 100%);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 200vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .navBar {
@@ -23,15 +23,15 @@ body {
 .siteTitle {
   color: #fff;
   font-size: 1em;
-  margin-right: 30%;
   margin-left: 8%;
+  margin-right: 30%;
   margin-top: 15px;
 }
 
 .navBarOptsOne,
 .navBarOptsTwo {
-  display: flex;
   color: #fff;
+  display: flex;
 }
 
 .navBarOptsOne p,
@@ -41,20 +41,20 @@ body {
 
 .supportBtn {
   background-color: #81d398;
-  color: #fff;
   border-radius: 8px;
-  width: 120px;
   box-shadow: 3px 3px #5b5a61;
+  color: #fff;
   font-size: 0.8em;
   height: 40px;
   margin-right: 100px;
+  width: 120px;
 }
 
 .siteHeader {
-  width: 28%;
-  margin: 10% 35%;
   color: #fff;
+  margin: 10% 35%;
   text-align: center;
+  width: 28%;
 }
 
 .headerText {
@@ -66,11 +66,11 @@ body {
 }
 
 .domainInput {
-  width: 55%;
-  height: 50px;
-  border-radius: 10px;
-  padding: 0 11px;
   border: none;
+  border-radius: 10px;
+  height: 50px;
+  padding: 0 11px;
+  width: 55%;
 }
 
 input:focus {
@@ -83,47 +83,47 @@ button:focus {
 
 .searchBtn {
   background-color: #81d398;
-  padding: 10px;
-  color: #fff;
   border-radius: 10px;
-  width: 100px;
+  color: #fff;
   font-size: 0.8em;
   height: 50px;
   margin: 0 2%;
+  padding: 10px;
+  width: 100px;
 }
 
 .midHeader h3 {
   font-size: .7em;
-  margin-top: 25%;
   font-weight: lighter;
+  margin-top: 25%;
 }
 
 .downArrow {
   background-color: #81d398;
   border-radius: 60%;
-  padding: 15px;
   margin: 15px 45%;
+  padding: 15px;
 }
 
 .downArrow a {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
 }
 
 .mainContent {
-  width: 50%;
-  margin: 15px 25%;
   font-size: 1.5em;
+  margin: 15px 25%;
   text-align: center;
+  width: 50%;
 }
 
 .createAcctBtn {
   background-color: #736fdf;
-  color: #fff;
   border-radius: 10px;
-  width: 200px;
+  color: #fff;
   font-size: 0.5em;
   height: 41px;
+  width: 200px;
 }
 
 .galleryTitle h1 {
@@ -137,26 +137,26 @@ button:focus {
 
 ​ .galleryContent {
   display: grid;
-  grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
-  width: 80%;
+  grid-template-rows: 50% 50%;
   margin: 0 10%;
+  width: 80%;
 }
 
 .galleryContent article {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #d4d2d2;
   display: grid;
   grid-template-columns: 30% 60%;
   margin: 5% 5%;
-  box-shadow: 1px 1px 1px 1px #d4d2d2;
-  border-radius: 10px;
-  background-color: #fff;
 }
 
 .galleryContent img {
-  width: 70%;
   height: 50%;
-  margin-top: 25%;
   margin-bottom: 5%;
+  margin-top: 25%;
+  width: 70%;
 }
 
 .galleryContent div {
@@ -181,36 +181,35 @@ button:focus {
 
 .createAcctBtnTwo {
   background-color: #736fdf;
-  padding: 10px;
-  color: #fff;
   border-radius: 10px;
-  width: 200px;
+  color: #fff;
   font-size: 0.5em;
   height: 41px;
   margin-left: 45%;
   margin-right: 4%;
   margin-top: 2%;
+  padding: 10px;
+  width: 200px;
 }
 
 .contactBtn {
   background-color: #fff;
-  padding: 10px;
-  color: #000;
   border-radius: 5px;
-  width: 150px;
   box-shadow: 2px 2px #b2b0d2;
+  color: #000;
   font-size: 0.5em;
   height: 41px;
   margin: 2% 0;
+  padding: 10px;
+  width: 150px;
 }
 
 .siteFooter {
+  background-color:#736fdf;
+  color: white;
   display: grid;
   grid-template-columns: 22% 22% 22% 22% 5%;
-  color: white;
   padding: 2% 10%;
-  background-color:
-    #736fdf;
 }
 
 .contactInfo {
@@ -227,7 +226,7 @@ button:focus {
 }
 
 .socialIcons img {
-  width: 50%;
   height: 20px;
   margin: 10%;
+  width: 50%;
 }
