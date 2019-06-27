@@ -1,0 +1,232 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: linear-gradient(171deg, #742dd0 0%, #742dd0 8%, #7449d8 8%, #7449d8 31%, #736fdf 31%, #736fdf 36%, #fff 36%, #fff 77%, #f5f9fc 77%, #f5f9fc 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 200vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+
+.siteTitle {
+  color: #fff;
+  font-size: 1em;
+  margin-left: 8%;
+  margin-right: 30%;
+  margin-top: 15px;
+}
+
+.navBarOptsOne,
+.navBarOptsTwo {
+  color: #fff;
+  display: flex;
+}
+
+.navBarOptsOne p,
+.navBarOptsTwo p {
+  margin: 15px 30px;
+}
+
+.supportBtn {
+  background-color: #81d398;
+  border-radius: 8px;
+  box-shadow: 3px 3px #5b5a61;
+  color: #fff;
+  font-size: 0.8em;
+  height: 40px;
+  margin-right: 100px;
+  width: 120px;
+}
+
+.siteHeader {
+  color: #fff;
+  margin: 10% 35%;
+  text-align: center;
+  width: 28%;
+}
+
+.headerText {
+  font-size: 3em;
+}
+
+.siteHeader span {
+  color: #81d398;
+}
+
+.domainInput {
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  padding: 0 11px;
+  width: 55%;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.searchBtn {
+  background-color: #81d398;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.8em;
+  height: 50px;
+  margin: 0 2%;
+  padding: 10px;
+  width: 100px;
+}
+
+.midHeader h3 {
+  font-size: .7em;
+  font-weight: lighter;
+  margin-top: 25%;
+}
+
+.downArrow {
+  background-color: #81d398;
+  border-radius: 60%;
+  margin: 15px 45%;
+  padding: 15px;
+}
+
+.downArrow a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mainContent {
+  font-size: 1.5em;
+  margin: 15px 25%;
+  text-align: center;
+  width: 50%;
+}
+
+.createAcctBtn {
+  background-color: #736fdf;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.5em;
+  height: 41px;
+  width: 200px;
+}
+
+.galleryTitle h1 {
+  margin: 0 45%;
+  margin-top: 5%;
+}
+
+.galleryTitle p {
+  margin: 0 48%;
+}
+
+​ .galleryContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  margin: 0 10%;
+  width: 80%;
+}
+
+.galleryContent article {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #d4d2d2;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  margin: 5% 5%;
+}
+
+.galleryContent img {
+  height: 50%;
+  margin-bottom: 5%;
+  margin-top: 25%;
+  width: 70%;
+}
+
+.galleryContent div {
+  margin: 5% 0;
+}
+
+.accountContent {
+  display: flex;
+  margin: 2% 12%;
+  width: 85%;
+}
+
+.accountText h2 {
+  color: #d7d8f4;
+  font-size: 1.5em;
+}
+
+.accountText p {
+  color: #9b91bc;
+  font-size: 1em;
+}
+
+.createAcctBtnTwo {
+  background-color: #736fdf;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.5em;
+  height: 41px;
+  margin-left: 45%;
+  margin-right: 4%;
+  margin-top: 2%;
+  padding: 10px;
+  width: 200px;
+}
+
+.contactBtn {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px #b2b0d2;
+  color: #000;
+  font-size: 0.5em;
+  height: 41px;
+  margin: 2% 0;
+  padding: 10px;
+  width: 150px;
+}
+
+.siteFooter {
+  background-color:#736fdf;
+  color: white;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22% 5%;
+  padding: 2% 10%;
+}
+
+.contactInfo {
+  margin: 5% 0;
+}
+
+.locationInfo {
+  display: flex;
+}
+
+.socialIcons {
+  display: block;
+  margin-top: 30%;
+}
+
+.socialIcons img {
+  height: 20px;
+  margin: 10%;
+  width: 50%;
+}
