@@ -16,7 +16,6 @@ body {
 
 .navBar {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 2% 0;
 }
@@ -42,7 +41,6 @@ body {
 
 .supportBtn {
   background-color: #81d398;
-  padding: 10px;
   color: #fff;
   border-radius: 8px;
   width: 120px;
@@ -79,6 +77,10 @@ input:focus {
   outline: none;
 }
 
+button:focus {
+  outline: none;
+}
+
 .searchBtn {
   background-color: #81d398;
   padding: 10px;
@@ -100,8 +102,12 @@ input:focus {
   background-color: #81d398;
   border-radius: 60%;
   padding: 15px;
-  width: 10%;
   margin: 15px 45%;
+}
+
+.downArrow a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .mainContent {
@@ -113,7 +119,6 @@ input:focus {
 
 .createAcctBtn {
   background-color: #736fdf;
-  padding: 10px;
   color: #fff;
   border-radius: 10px;
   width: 200px;
@@ -155,9 +160,7 @@ input:focus {
 }
 
 .galleryContent div {
-  width: 100%;
   margin: 5% 0;
-  font-size: 1em;
 }
 
 .accountContent {
@@ -208,7 +211,6 @@ input:focus {
   padding: 2% 10%;
   background-color:
     #736fdf;
-  width: 100%;
 }
 
 .contactInfo {
