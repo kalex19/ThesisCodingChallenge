@@ -1,0 +1,191 @@
+body {
+  background-color: purple;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.siteTitle {
+  color: #fff;
+  font-size: 1em;
+  margin-right: 30%;
+  margin-left: 8%;
+  margin-top: 15px;
+}
+
+.navBarOptsOne,
+.navBarOptsTwo {
+  display: flex;
+  color: #fff;
+
+}
+
+.navBarOptsOne p {
+  margin: 15px 30px;
+}
+
+.navBarOptsTwo p {
+  margin: 15px 30px;
+}
+
+.supportBtn {
+  background-color: #98d498;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  width: 120px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  font-size: 0.8em;
+  height: 40px;
+  margin-right: 100px;
+}
+
+.siteHeader {
+  width: 28%;
+  margin: 10% 35%;
+  color: #fff;
+  text-align: center;
+}
+
+
+.headerText {
+  font-size: 3em;
+}
+
+.siteHeader span {
+  color: #98d498;
+}
+
+.domainInput {
+  width: 55%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 11px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchBtn {
+  background-color: #98d498;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  width: 100px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  font-size: 0.8em;
+  height: 50px;
+}
+
+.midHeader h3 {
+  font-size: .6em;
+  margin-top: 30%;
+}
+
+.downArrow {
+  background-color: #98d498;
+  border-radius: 60%;
+  padding: 15px;
+  width: 7%;
+  margin: 15px 40%;
+}
+
+.mainContent {
+  width: 60%;
+  margin: 15px 25%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.createAcctBtn {
+  background-color: #673AB7;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  font-size: 0.5em;
+  height: 41px;
+}
+
+.galleryTitle {
+  margin: 5% 45%;
+  color: white;
+}
+
+.galleryContent {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 40% 40%;
+  margin: 5%;
+}
+
+.galleryContent div {
+  margin: 5% 5%;
+  box-shadow: 1px 1px 1px 1px #888888;
+  border-radius: 10px;
+}
+
+.galleryContent img {
+  width: 30%;
+  height: 30%;
+}
+
+.accountContent {
+  display: flex;
+  margin: 5% 0;
+}
+
+.accountContent button {
+  margin: 5%;
+}
+
+.accountText h2 {
+  color: plum;
+  font-size: 2em;
+}
+
+.accountText p {
+  color: violet;
+  font-size: 1em;
+}
+
+.createAcctBtnTwo {
+  background-color: #673AB7;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  font-size: 0.5em;
+  height: 41px;
+  margin-left: 45%;
+  margin-right: 16%;
+}
+
+
+.contactBtn {
+  background-color: #fff;
+  padding: 10px;
+  color: #000;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  font-size: 0.5em;
+  height: 41px;
+}
+
+.siteFooter {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  color: white;
+}
+
+.socialIcons img {
+  width: 20%;
+  height: 50px;
+}

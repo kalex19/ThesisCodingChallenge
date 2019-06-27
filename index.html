@@ -5,39 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
     <title>Thesis Mock Up</title>
   </head>
 
   <body>
-    <nav>
+    <nav class="navBar">
       <h1 class='siteTitle'>MyWebNow</h1>
-      <div class="navBar">
+      <div class="navBarOptsOne">
         <p>Home</p>
         <p>Why Us</p>
         <p>Contact us</p>
+      </div>
+      <div class='navBarOptsTwo'>
         <p class='logIn'>Login</p>
+        <button class="supportBtn">Support</button>
       </div>
     </nav>
-    <header>
-      <h1>Get a website in 15 minutes <span>or less</span></h1>
-      <input type="text" placeholder="Write your domain name here">
-      <button>Search</button>
-      <div>
+    <header class="siteHeader">
+      <h1 class="headerText">Get a website in 15 minutes <span>or less</span></h1>
+      <input class="domainInput" type="text" placeholder="Write your domain name here..">
+      <button class="searchBtn">Search</button>
+      <div class="midHeader">
         <h3>LEARN HOW WE CAN ENHANCE YOUR BUSINESS</h3>
-        <p>&#8595</p>
+        <p class="downArrow">&#8595</p>
       </div>
     </header>
     <section class='mainContent'>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+        consequat. </p>
       <button class="createAcctBtn">CREATE YOUR ACCOUNT</button>
     </section>
-    <section class='galleryContent'>
-      <h1>Our Services</h1>
-      <article>
+    <section>
+      <h1 class="galleryTitle">Our Services</h1>
+      <article class='galleryContent'>
         <div><img src="./assets/web-host-image.jpeg" alt="Web Hosting">
           <h3>WEB HOSTING</h3>
           <p>&#8594</p>
@@ -70,30 +72,23 @@
       </article>
     </section>
     <section class='accountContent'>
-      <div>
+      <div class="accountText">
         <h2>Are you ready?</h2>
         <p>create an acount, or contact us.</p>
       </div>
-      <button>CREATE YOUR ACCOUNT</button>
-      <button>CONTACT US</button>
+      <button class='createAcctBtnTwo'>CREATE YOUR ACCOUNT</button>
+      <button class='contactBtn'>CONTACT US</button>
     </section>
-    <footer>
+    <footer class='siteFooter'>
       <article class="contactInfo">
         <div>
-          <img src="./assets/transparent-white-phone.jpeg" alt="Phone">
-          <p>&#9743</p>
-          <p>+1 800 WEBSITE</p>
+          <p> ☏ +1 800 WEBSITE</p>
         </div>
         <div>
-          <img src="./assets/transparent-white-email.png" alt="Email">
-          <p>✉️</p>
-          <p>hello@mywebnow.com</p>
+          <p>✉️ hello@mywebnow.com</p>
         </div>
         <div>
-          <img src="./assets/transparent-white-pin.png" alt="Location Pin">
-          <p> &#9906</p>
-          <p>&#9872</p>
-          <p>1 Main St</p>
+          <p> 🏳 1 Main St</p>
           <p>Floor 6,</p>
           <p>New York, NY 10005</p>
         </div>
@@ -106,6 +101,8 @@
           <p>FAQ</p>
           <p>Contact us</p>
         </div>
+      </article>
+      <article>
         <div>
           <h1>Services</h1>
           <p>Web Hosting</p>
@@ -113,6 +110,8 @@
           <p>VPS Servers</p>
           <p>Domain Names</p>
         </div>
+      </article>
+      <article>
         <div>
           <h1>Others</h1>
           <p>Transfer domains</p>
