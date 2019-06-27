@@ -1,11 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
 body {
-  background-color: purple;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 200vh;
+  background: linear-gradient(171deg, #742dd0 0%, #742dd0 8%, #7449d8 8%, #7449d8 31%, #736fdf 31%, #736fdf 36%, #fff 36%, #fff 77%, #f5f9fc 77%, #f5f9fc 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navBar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 2% 0;
 }
 
 .siteTitle {
@@ -20,24 +33,20 @@ body {
 .navBarOptsTwo {
   display: flex;
   color: #fff;
-
 }
 
-.navBarOptsOne p {
-  margin: 15px 30px;
-}
-
+.navBarOptsOne p,
 .navBarOptsTwo p {
   margin: 15px 30px;
 }
 
 .supportBtn {
-  background-color: #98d498;
+  background-color: #81d398;
   padding: 10px;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 8px;
   width: 120px;
-  box-shadow: 1px 1px 1px 1px #888888;
+  box-shadow: 3px 3px #5b5a61;
   font-size: 0.8em;
   height: 40px;
   margin-right: 100px;
@@ -50,13 +59,12 @@ body {
   text-align: center;
 }
 
-
 .headerText {
   font-size: 3em;
 }
 
 .siteHeader span {
-  color: #98d498;
+  color: #81d398;
 }
 
 .domainInput {
@@ -64,6 +72,7 @@ body {
   height: 50px;
   border-radius: 10px;
   padding: 0 11px;
+  border: none;
 }
 
 input:focus {
@@ -71,26 +80,27 @@ input:focus {
 }
 
 .searchBtn {
-  background-color: #98d498;
+  background-color: #81d398;
   padding: 10px;
   color: #fff;
   border-radius: 10px;
   width: 100px;
-  box-shadow: 1px 1px 1px 1px #888888;
   font-size: 0.8em;
   height: 50px;
+  margin: 0 2%;
 }
 
 .midHeader h3 {
   font-size: .7em;
-  margin-top: 20%;
+  margin-top: 25%;
+  font-weight: lighter;
 }
 
 .downArrow {
-  background-color: #98d498;
+  background-color: #81d398;
   border-radius: 60%;
   padding: 15px;
-  width: 7%;
+  width: 10%;
   margin: 15px 45%;
 }
 
@@ -102,94 +112,120 @@ input:focus {
 }
 
 .createAcctBtn {
-  background-color: #673AB7;
+  background-color: #736fdf;
   padding: 10px;
   color: #fff;
   border-radius: 10px;
   width: 200px;
-  box-shadow: 1px 1px 1px 1px #888888;
   font-size: 0.5em;
   height: 41px;
 }
 
-.galleryTitle {
-  margin: 5% 45%;
+.galleryTitle h1 {
+  margin: 0 45%;
+  margin-top: 5%;
 }
 
-.galleryTitle u {
-  text-decoration: none;
-  border-bottom: 2px solid black;
+.galleryTitle p {
+  margin: 0 48%;
 }
 
 ​ .galleryContent {
   display: grid;
   grid-template-rows: 50% 50%;
-  grid-template-columns: 40% 40%;
-  margin: 5%;
+  grid-template-columns: 50% 50%;
+  width: 80%;
+  margin: 0 10%;
 }
 
-.galleryContent div {
+.galleryContent article {
+  display: grid;
+  grid-template-columns: 30% 60%;
   margin: 5% 5%;
-  box-shadow: 1px 1px 1px 1px #888888;
+  box-shadow: 1px 1px 1px 1px #d4d2d2;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .galleryContent img {
-  width: 30%;
-  height: 30%;
+  width: 70%;
+  height: 50%;
+  margin-top: 25%;
+  margin-bottom: 5%;
+}
+
+.galleryContent div {
+  width: 100%;
+  margin: 5% 0;
+  font-size: 1em;
 }
 
 .accountContent {
   display: flex;
-  margin: 5% 0;
-}
-
-.accountContent button {
-  margin: 5%;
+  margin: 2% 12%;
+  width: 85%;
 }
 
 .accountText h2 {
-  color: plum;
-  font-size: 2em;
+  color: #d7d8f4;
+  font-size: 1.5em;
 }
 
 .accountText p {
-  color: violet;
+  color: #9b91bc;
   font-size: 1em;
 }
 
 .createAcctBtnTwo {
-  background-color: #673AB7;
+  background-color: #736fdf;
   padding: 10px;
   color: #fff;
   border-radius: 10px;
   width: 200px;
-  box-shadow: 1px 1px 1px 1px #888888;
   font-size: 0.5em;
   height: 41px;
   margin-left: 45%;
-  margin-right: 16%;
+  margin-right: 4%;
+  margin-top: 2%;
 }
-
 
 .contactBtn {
   background-color: #fff;
   padding: 10px;
   color: #000;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 150px;
-  box-shadow: 1px 1px 1px 1px #888888;
+  box-shadow: 2px 2px #b2b0d2;
   font-size: 0.5em;
   height: 41px;
+  margin: 2% 0;
 }
 
 .siteFooter {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 22% 22% 22% 22% 5%;
   color: white;
+  padding: 2% 10%;
+  background-color:
+    #736fdf;
+  width: 100%;
+}
+
+.contactInfo {
+  margin: 5% 0;
+}
+
+.locationInfo {
+  display: flex;
+}
+
+.socialIcons {
+  display: block;
+  margin-top: 30%;
 }
 
 .socialIcons img {
-  width: 20%;
-  height: 50px;
+  width: 50%;
+  height: 20px;
+  margin: 10%;
 }
