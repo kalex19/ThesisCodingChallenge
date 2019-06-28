@@ -1,16 +1,16 @@
-#Thesis Code Challenge
+# Thesis Code Challenge
 
 The goal of this project is to recreate a mock website. The comp was provided as strictly uses HTML and CSS.
 
-##Successes
+## Successes
 
 The mock is very close to the comp. The color are correct and close attention was paid to same details such as capitalization and positioning.
 
-##Challenges
+## Challenges
 
 Libraries and frameworks were not allowed so finding the correct social media icons was a challenge. The shadowing on the buttons is off as well. 
 
-##My Favorite Part
+## My Favorite Part
 
 I really enjoyed working on this project and learnign how to use linear gradient to create the background.
 
