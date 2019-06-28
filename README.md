@@ -4,11 +4,11 @@ The goal of this project is to recreate a mock website. The comp was provided an
 
 ## Successes
 
-The mock is very close to the comp. The color are correct and close attention was paid to the details such as capitalization and positioning.
+The mock is very close to the comp. The colors are correct and close attention was paid to the details such as capitalization and positioning.
 
 ## Challenges
 
-Libraries and frameworks were not allowed so finding the correct social media icons was a challenge. The shadows on the buttons is off as well. 
+Libraries and frameworks were not allowed so finding the correct social media icons was a challenge. The shadows on the buttons are off as well. 
 
 ## My Favorite Part
 
