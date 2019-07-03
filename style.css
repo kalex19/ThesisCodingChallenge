@@ -14,13 +14,13 @@ body {
   width: 100%;
 }
 
-.navBar {
+nav {
   display: flex;
   justify-content: space-between;
   padding: 2% 0;
 }
 
-.siteTitle {
+.site-title {
   color: #fff;
   font-size: 1em;
   margin-left: 8%;
@@ -28,18 +28,20 @@ body {
   margin-top: 15px;
 }
 
-.navBarOptsOne,
-.navBarOptsTwo {
+.nav-bar-opts-one,
+.nav-bar-opts-two {
   color: #fff;
   display: flex;
 }
 
-.navBarOptsOne p,
-.navBarOptsTwo p {
+.nav-bar-opts-one a,
+.nav-bar-opts-two a {
   margin: 15px 30px;
+  color: white;
+  text-decoration: none;
 }
 
-.supportBtn {
+.support-btn {
   background-color: #81d398;
   border-radius: 8px;
   box-shadow: 3px 3px #5b5a61;
@@ -50,22 +52,22 @@ body {
   width: 120px;
 }
 
-.siteHeader {
+header {
   color: #fff;
   margin: 10% 35%;
   text-align: center;
   width: 28%;
 }
 
-.headerText {
+.header-text {
   font-size: 3em;
 }
 
-.siteHeader span {
+.header-text span {
   color: #81d398;
 }
 
-.domainInput {
+.domain-input {
   border: none;
   border-radius: 10px;
   height: 50px;
@@ -81,7 +83,7 @@ button:focus {
   outline: none;
 }
 
-.searchBtn {
+.search-btn {
   background-color: #81d398;
   border-radius: 10px;
   color: #fff;
@@ -92,32 +94,35 @@ button:focus {
   width: 100px;
 }
 
-.midHeader h3 {
+.mid-header h3 {
   font-size: .7em;
   font-weight: lighter;
-  margin-top: 25%;
+  margin-top: 20%;
+  margin-bottom: 10%;
 }
 
-.downArrow {
+.down-arrow {
   background-color: #81d398;
   border-radius: 60%;
-  margin: 15px 45%;
+  margin: 25px 45%;
   padding: 15px;
+  text-decoration: none;
+  color: white;
 }
 
-.downArrow a {
+.down-arrow a {
   color: #fff;
   text-decoration: none;
 }
 
-.mainContent {
+.main-content {
   font-size: 1.5em;
   margin: 15px 25%;
   text-align: center;
   width: 50%;
 }
 
-.createAcctBtn {
+.create-account-btn {
   background-color: #736fdf;
   border-radius: 10px;
   color: #fff;
@@ -126,24 +131,16 @@ button:focus {
   width: 200px;
 }
 
-.galleryTitle h1 {
+.gallery-title h3 {
   margin: 0 45%;
   margin-top: 5%;
 }
 
-.galleryTitle p {
+.gallery-title p {
   margin: 0 48%;
 }
 
-​ .galleryContent {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  margin: 0 10%;
-  width: 80%;
-}
-
-.galleryContent article {
+.gallery-content article {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px #d4d2d2;
@@ -152,34 +149,34 @@ button:focus {
   margin: 5% 5%;
 }
 
-.galleryContent img {
+.gallery-content img {
   height: 50%;
   margin-bottom: 5%;
   margin-top: 25%;
   width: 70%;
 }
 
-.galleryContent div {
+.gallery-content div {
   margin: 5% 0;
 }
 
-.accountContent {
+.account-content {
   display: flex;
   margin: 2% 12%;
   width: 85%;
 }
 
-.accountText h2 {
+.account-text h2 {
   color: #d7d8f4;
   font-size: 1.5em;
 }
 
-.accountText p {
+.account-text p {
   color: #9b91bc;
   font-size: 1em;
 }
 
-.createAcctBtnTwo {
+.create-account-btn-two {
   background-color: #736fdf;
   border-radius: 10px;
   color: #fff;
@@ -192,7 +189,7 @@ button:focus {
   width: 200px;
 }
 
-.contactBtn {
+.contact-btn {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 2px 2px #b2b0d2;
@@ -204,28 +201,37 @@ button:focus {
   width: 150px;
 }
 
-.siteFooter {
-  background-color:#736fdf;
+footer {
+  background-color: #736fdf;
   color: white;
   display: grid;
-  grid-template-columns: 22% 22% 22% 22% 5%;
+  grid-template-columns: 25% 19% 22% 22% 5%;
   padding: 2% 10%;
 }
 
-.contactInfo {
+.contact-info {
   margin: 5% 0;
 }
 
-.locationInfo {
-  display: flex;
+.location-info {
+  display: grid;
+  grid-template-columns: 10% 90%;
 }
 
-.socialIcons {
-  display: block;
+.location-info p {
+  margin: 0;
+}
+
+footer a {
+  margin: 2% 0;
+}
+
+.social-icons {
+  display: inline-grid;
   margin-top: 30%;
 }
 
-.socialIcons img {
+.social-icons img {
   height: 20px;
   margin: 10%;
   width: 50%;
